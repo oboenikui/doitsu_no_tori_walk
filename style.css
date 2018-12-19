@@ -27,6 +27,7 @@ body {
     perspective: 1px;
     object-fit: contain;
     transform-style: preserve-3d;
+    cursor: url(./0eur.png), auto;
 }
 
 .bird-image.walking {
@@ -54,7 +55,6 @@ body {
     left: 52%;
     top: 40%;
     user-select: none;
-    /* filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5)); */
 }
 
 @media (min-aspect-ratio:1776/1000) {
@@ -63,7 +63,6 @@ body {
         height: auto;
         width: 16vw;
     }
-
     .bird {
         transform-origin: 8vw 10vw;
     }
